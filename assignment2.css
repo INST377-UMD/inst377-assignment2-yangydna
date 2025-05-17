@@ -1,0 +1,217 @@
+/* body color 7d070c b30a11*/ 
+body {
+    background-color: #7d070c;
+}
+
+canvas {
+    background-color: white;
+    margin: 10px;
+}
+
+table, th, td {
+  background-color: white;
+  border: 1px solid;
+}
+
+/* header/footer 5c0509 */
+#header {
+    background-color: #ba4550;
+    color: #380305;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* nav-bar: color */
+#main-nav {
+    background-color: #fcc7ca;
+    color: #380305;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+/* nav-bar: horizontal align */
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+  
+/* nav-bar: hover*/
+#main-nav li:hover {
+    background-color: #380305;
+    color: #fcc7ca;
+}
+  
+/* nav-bar: spacing */
+#main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+/* home-main */
+.main-container {
+    background-color: #ba4550;
+    color: #fcc7ca;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* audio */
+.audio-container {
+    width: 40%;
+    background-color: #ba4550;
+    color: #fcc7ca;
+    padding: 8px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* button */
+.button-container {
+    text-align: center;
+}
+
+/* quote container */
+.quote-container {
+    text-align: center;
+    width: 60%;
+    background-color: #fcc7ca;
+    color: #ba4550;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.gallery-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.info-container {
+  background-color:#fcc7ca;
+  color: #7d070c;
+  padding: 5px;
+  border: 3px solid;
+}
+
+
+/* button from CSS Scan website */
+.button-78 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-78 {
+    padding: 19px 32px;
+  }
+}
+
+.button-78:before,
+.button-78:after {
+  border-radius: 80px;
+}
+
+.button-78:before {
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-78:after {
+  background-color: initial;
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-78:hover:not(:disabled):before {
+  background: linear-gradient(92.83deg, rgb(255, 116, 38) 0%, rgb(249, 58, 19) 100%);
+}
+
+.button-78:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+.button-78:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-78:active:not(:disabled):before {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.button-78:active:not(:disabled):after {
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-78:disabled {
+  cursor: default;
+  opacity: .24;
+}

@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>INST377 - Class Page</title>
+    <link rel="stylesheet" href="assignment2.css">
+    <script src="assignment2.js" defer></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <h1>INST377 - Activities</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="assignment2_1.html" style="color: inherit;text-decoration:none;">Home</a></li>
+            <li><a href="assignment2_2.html" style="color: inherit;text-decoration:none;">Stocks</a></li>
+            <li><a href="assignment2_3.html" style="color: inherit;text-decoration:none;">Dogs</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Main Section -->
+    <div class="main-container">
+        <h1>Things to Try</h1>
+        <!-- Button Section -->
+        <div class="button-container">
+            <button id="stocksButton" class="button-78" onclick=changePage(2)>Stocks</button>
+            <button id="dogsButton" class="button-78" onclick=changePage(3)>Dogs</button>
+        </div>
+        <!-- Quote Section -->
+        <div class="quote-container">
+            <h1>Quote of the Page Load</h1>
+            <h2 id="quote"></h2>
+            <h3 id="author"></h3>
+        </div>
+    </div>
+
+    <!-- Audio Section -->
+    <div class="audio-container">
+        <h1>Audio Settings</h1>
+        <p>
+            Ensure your Mic is enabled to be able to use this feature
+            <ul>
+                <li>Lookup a stock</li>
+                <ul><li>Say: <b>Lookup &ltStock Ticker&gt</b></li></ul>
+                <li>Navigate to a Different Page</li>
+                <ul><li>Say: <b>Navigate to &ltpage&gt</b></li></ul>
+                <li>Change the Page Color</li>
+                <ul><li>Say: <b>Change the color to &ltcolor&gt</b></li></ul>
+                <li>Say Hello Back to you!</li>
+                <ul><li>Say: <b>Hello</b></li></ul>
+            </ul>
+        </p>
+        <div class="button-container">
+            <button id="audioOn">Turn Audio On</button>
+            <button id="audioOff">Turn Audio Off</button>
+        </div>
+    </div>
+</body>
+
+</html>
